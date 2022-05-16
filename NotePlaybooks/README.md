@@ -3,8 +3,8 @@
 To help you make whatever you want.
 
 ## NotePlaybooks
-> [HTML](/htmlplaybook.html)
-> [CSS](/cssplaybook.html)
+> [HTML](htmlplaybook.html)
+> [CSS](cssplaybook.html)
 
 ## Documentation Sources:
 
