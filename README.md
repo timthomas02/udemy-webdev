@@ -1,6 +1,6 @@
 # udemy-webdev
 
-## Note PLaybooks
+## [Note Playbooks](/NotePlaybooks)
 Location for all the notes and brain spits.
 
 ## Project 1: [HTML CV](/CV.HTML/index.html)
