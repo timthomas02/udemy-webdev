@@ -1,0 +1,36 @@
+/************** TAG SELECTORS **************/
+
+h1 {
+    color: brown;
+    font-size: 100px;
+}
+
+img {
+    background-color: azure;
+    height: 200px;
+}
+
+body {
+    background-color: bisque;
+}
+
+
+
+/************** CLASS SELECTORS **************/
+
+.bacon {
+    background-color: green;
+
+}
+
+.brocolli {
+    background-color: burlywood;
+}
+
+
+
+/************** ID SELECTORS **************/
+
+#heading {
+    color: dimgrey;
+}

@@ -1,0 +1,97 @@
+/* 
+            
+    CSS CODE PLAYBOOK
+
+    Cascading Style Sheets
+
+    Learning and notes for CSS section of Udemy web dev course.
+    
+*/
+
+
+/*
+
+    :::: GRAMMAR ::::
+
+
+        selector {property: value;}
+
+    
+
+    
+    :::: WAYS TO STYLE ::::
+
+
+        All the following work, and work hierarchically to each other.
+        Highest takes precedence, but lowest (external file) is cleanest.
+        ...........................
+
+        Inline CSS:
+
+            Means things are styled in the html file not in css file.
+
+            Can be in object:
+
+                <body style="background-color: black">
+                </body>
+
+        In Style Tag:
+
+            head>
+                <meta charset="utf-8">
+                <title>Tim'a Personal Site</title>
+            </head>
+
+            <style>
+                body {
+                    background-color: black
+                }
+            </style>
+
+        External CSS file:
+
+            1. Create style sheet           :: styles.css
+            2. Link file in HTML head       :: <link rel="stylesheet" href="/CV/css/styles.css">
+
+    
+        
+    :::: OBJECT HIERARCHY ::::
+
+        - tag                   :: img
+            - class             :: .Classname    (objects can have >1 class) ex. class="mail inbox"
+                - id            :: #IDname       (each id has to be unique)
+
+
+
+    :::: PSUEDO CLASSES ::::
+
+        Classes based on object state.
+
+        Ex.
+                :active {}
+                :hover {}        img:hover { background-color: black}
+
+
+
+
+
+    :::: KNOWLEDGE ::::
+
+        - Many ppl use tags and classes to style, not ids
+        - Linters actually suggest against using ids
+
+    
+
+
+            
+
+
+
+
+
+
+
+
+
+
+*/
