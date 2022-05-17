@@ -8,7 +8,7 @@ To help you make whatever you want.
 
 ## Documentation Sources:
 
-### MDN - Mozilla
+### [MDN - Mozilla](developer.mozilla.org)
 Most highly suggested.
 > ex google: "headings html mdn"
 
@@ -20,9 +20,17 @@ Most highly suggested.
 
 ## Design & Planning
 
-> [Color Hunt](colorhunt.co)
+### [Color Hunt](colorhunt.co)
 
 Just free color palattes and hex codes out the ass. Crazy resource
+
+### [Browser Default](https://www.w3schools.com/cssref/css_default_values.asp)
+
+Default browser css.
+
+### MDN CSS
+
+>[Color Values](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
 
 ### Unicode](unicode-table.com)
 

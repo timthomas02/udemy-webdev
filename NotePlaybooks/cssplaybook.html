@@ -21,23 +21,56 @@
 
 
 <!--
+
+    :::: GRAMMAR ::::
+
+    selector {property: value;}
+
+    :::: WAYS TO STYLE ::::
+
+    All the following work, and work hierarchically to each other.
+    Highest takes precedence, but lowest (external file) is cleanest.
+
+    :::: ------------- ::::
+
     Inline CSS:
 
         Means things are styled in the html file not in css file.
 
-        Ex:
+        Can be in object:
 
             <body style="background-color: blue">
-
             </body>
 
+    In Style Tag:
 
+        head>
+            <meta charset="utf-8">
+            <title>Tim'a Personal Site</title>
+        </head>
 
+        <style>
+            body {
+                background-color: blue
+            }
+        </style>
 
+    External CSS file:
 
+        1. Create style sheet           :: styles.css
+        2. Link file in HTML head       :: <link rel="stylesheet" href="/CV/css/styles.css">
 
-
-
+    
 
             
+
+
+
+
+
+
+
+
+
+
 -->
