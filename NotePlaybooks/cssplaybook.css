@@ -37,7 +37,7 @@
 
         In Style Tag:
 
-            head>
+            <head>
                 <meta charset="utf-8">
                 <title>Tim'a Personal Site</title>
             </head>
@@ -72,13 +72,152 @@
                 :hover {}        img:hover { background-color: black}
 
 
+    
+    
+    :::: FAVICONS ::::
+
+        Used to be that you could calculate how many people favorited your site
+        by checking favison downloads. They display all the time now though.
+
+        Make one at "www.favicon.cc"
+
+        <head>
+            <link rel="icon" href="file/location">
+        </head>
+
+    
+    
+    
+    
+    :::: DIVS & BORDERS ::::
+
+        - Everything is regarding as boxes, regardless of what it is.
+        - Divs are therefore used as containers to group elements, which can be styled
+
+        - Box Model
+                - can specify values as
+                    : static pixels     (35px)
+                    : percentages       (80%)
+                
+                - will automatically have height and width to fit content
+                
+                - boxes have borders for spacing
+
+                    borders :: the outline of content box
+                        : border                    (solid 10px)
+                        : border-width
+                            > circle shorthand      (5px 10px 20px 40px)
+                            > border-top            (5px)
+                            > border-bottom         (20px)
+
+                    padding :: space between content and edge of element
+                        : padding
+
+                    margin  :: buffer between box and other elements
 
 
 
-    :::: KNOWLEDGE ::::
+                    summary:
+                    
+                        margin
+                            border
+                                padding
+                                    content
 
-        - Many ppl use tags and classes to style, not ids
-        - Linters actually suggest against using ids
+    :::: DISPLAY ::::
+
+    Display Types:
+                
+                Block           ::  block whole width of section.
+                                    dont let other items sit next to it.
+
+                                    Ex.
+                                        <p>,<h1-h6>,<div>,<ol,ul,li>,<form>
+
+                
+                
+                Inline          ::  only takes up the space it needs to.
+                                    cant change their size (width, height).
+
+                                    Ex.
+                                        <span>, <img>, <a>
+
+                
+                Inline-Block    ::  inline elements that can change size
+
+                                    Ex.
+                                        images are kind of this but not really
+
+                
+                None            ::  removes element from website.
+                                    as if it didnt exist
+
+                                    [visibility: hidden does same but keeps space]
+                                    
+
+    :::: POSITIONING RULES ::::
+
+        Position Rules: 
+
+            1. Content is Everything
+
+            2. Order comes from code
+
+            3. Children sit on parents
+
+
+        Position
+                
+                Static          ::  go with html rules.
+                                    all html elements this by default
+
+                Relative        ::  position relative to what it WOULD have been if static
+
+                                    adds margin to where it would have been
+                                    
+                                    -- doesnt -- affect position of any other elements
+
+                                    top, bottom, left, and right properties can be changed after this
+
+                                    ex.     img {
+                                                position: relative,
+                                                left: 20px
+                                            }
+
+
+                Absolute        ::  position relative to its parent
+                
+                                    adding a margin to its parent for this object
+
+                                    -- does -- affect flow and position of other elements
+
+                                    ex. 
+                                        div {
+                                            position: relative;    // img will appear 30px from right right side of div
+                                        }
+
+                                        img {
+                                            position: absolute;
+                                            right: 30px;
+                                        }
+
+                Fixed           ::  position relative to the actual browser
+
+                                    will stay in the same spot on the window
+
+
+                
+
+
+
+
+
+
+
+
+
+
+    
 
     
 
